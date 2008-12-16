@@ -1,0 +1,227 @@
+#navigation {
+    width:100%;
+    height:30px;
+    background:#900;
+    position:absolute;
+    top:0;
+}
+
+#navigation ul {
+    margin:20px 20px 0 30px;
+    padding:0;
+    list-style:none;
+    position:absolute;
+
+}
+
+
+
+#navigation li{
+    height: 24px;
+    padding:0 7px;
+    float:left;
+    display:inline;
+    background-color:white;
+    background-repeat:no-repeat;
+    background-position: 7px -3px;
+}
+
+#navigation a{
+    display:block;
+    height: 24px;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    text-indent: -9999px;
+    background-position: 0 -3px;
+
+}
+
+#navigation a:hover{
+    background-position: 0 -34px;
+}
+
+#navigation a:focus {
+	-moz-outline:none;
+}
+
+#navigation #homeButton {
+    width: 63px;
+    height: 28px;
+    background-image: url(/images/ui/nav/dischord_logo.gif);
+    background-position: 0px 0;
+    margin:-3px 50px 0 0;
+    padding:0;
+} 
+
+/*#homeButton a {
+    width: 63px;
+    background-image: url(/images/ui/nav/dischord_logo.gif);
+    margin-right:50px;
+}
+
+#homeButton a:hover {
+    background-image: url(/images/ui/nav/dischord_logo.gif);
+}*/
+
+#bandsButton {
+    width: 37px;
+    background-image: url(/images/ui/nav/bands.gif);
+} 
+
+#bandsButton a {
+    width: 37px;
+    background-image: url(/images/ui/nav/bands.gif);
+}
+
+#bandsButton a:hover {
+    background-image: url(/images/ui/nav/bands.gif);
+}
+
+#toursButton {
+    width:34px;
+    background-image: url(/images/ui/nav/tours.gif);
+} 
+
+#toursButton a {
+    width: 34px;
+    background-image: url(/images/ui/nav/tours.gif);
+
+}
+
+#toursButton a:hover {
+    width: 34px;
+    background-image: url(/images/ui/nav/tours.gif);
+}
+
+
+#stuffwesellButton {
+    width: 81px;
+    background-image: url(/images/ui/nav/stuffwesell.gif);
+} 
+
+#stuffwesellButton a {
+    width: 81px;
+    background-image: url(/images/ui/nav/stuffwesell.gif);
+}
+
+#stuffwesellButton a:hover {
+    width: 81px;
+    background-image: url(/images/ui/nav/stuffwesell.gif);
+}
+
+#mediaButton {
+    width: 35px;
+    background-image: url(/images/ui/nav/media.gif);
+} 
+
+#mediaButton a {
+    width: 35px;
+    background-image: url(/images/ui/nav/media.gif);
+}
+
+#mediaButton a:hover {
+    width: 35px;
+    background-image: url(/images/ui/nav/media.gif);
+}
+
+#historyButton {
+    width: 44px;
+    background-image: url(/images/ui/nav/history.gif);
+} 
+
+#historyButton a {
+    width: 44px;
+    background-image: url(/images/ui/nav/history.gif);
+}
+
+#historyButton a:hover {
+
+
+}
+
+#contactButton {
+    width: 56px;
+    background-image: url(/images/ui/nav/contact.gif);
+} 
+
+#contactButton a {
+    width: 56px;
+    background-image: url(/images/ui/nav/contact.gif);
+}
+
+#contactButton a:hover {
+    width: 56px;
+    background-image: url(/images/ui/nav/contact.gif);
+}
+
+#faqButton {
+    width: 21px;
+    background-image: url(/images/ui/nav/faq.gif);
+} 
+
+#faqButton a {
+    width: 21px;
+    background-image: url(/images/ui/nav/faq.gif);
+}
+
+#aboutButton {
+    width: 37px;
+    background-image: url(/images/ui/nav/about.gif);
+} 
+
+#aboutButton a {
+    width: 37px;
+    background-image: url(/images/ui/nav/about.gif);
+}
+
+#navigation #cartStatus {
+    width:70px;
+    height:40px;
+    margin:20px 20px 0 25px;
+    padding:0px 5px;
+    color:white;
+    background:url(/images/ui/backgrounds/cart_status.gif) no-repeat;
+    position:absolute;
+    left:501px;
+    cursor: pointer;
+	overflow: hidden;
+}
+
+#navigation #cartStatus #itemCount{
+    font-size:2em;
+    width: 25px;
+    height: 20px;
+    display:block;
+    margin:2px 0 4px 3px;
+    text-align:right;
+}
+
+
+#navigation #cartStatus #creditsCount{
+    font-size: 11px;
+    width: 25px;
+    display:block;
+    margin:2px 0 0 3px;
+    text-align:right;
+    color: #555;
+    line-height: normal;
+}
+
+#navigation #cartStatus #text{
+    line-height: 0px;
+    text-indent: -9999px
+}
+
+#navigation #search {
+    position:absolute;
+    left:630px;
+    top:20px;
+}
+
+#navigation #search #searchTerm {
+    width:130px;
+    float:left;
+    margin:0px 5px 0 0;
+}
+
+

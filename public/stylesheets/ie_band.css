@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#footer .right_column .powered_by{
+background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='includes/templates/da_bands/images/powered_by_kungfu.png',sizingMethod='scale');
+
+}
+
+.product_name{
+	padding-bottom: 5px;
+}
+
+.product_buy a{
+	line-height: 10px;
+}
+
+#product_main{
+	margin-right: -10px;
+}
+
+h2.product_price_block{
+	clear: left;
+}

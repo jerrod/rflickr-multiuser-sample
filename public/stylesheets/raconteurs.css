@@ -1,0 +1,148 @@
+
+		/*-----------------------------------------------------------------
+		raconteurs CSS Style Sheet
+		
+		version: 	1.0
+		author: 	Impressive Designs
+		email:		info@impdesigns.com
+		website:	http://www.impdesigns.com
+		copyright:	(c)2006
+		generator:	Kung Fu Template Editor		
+		-------------------------------------------------------------------*/
+		
+		body{
+			background-color: #000000;
+			color: #00FF00;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		/* Miscellaneous
+		-----------------------------------------------------------*/
+		A{
+			color: #00FF00;
+			
+		}
+		
+		/* Main Container
+		-----------------------------------------------------------*/
+		#container{
+			background: #000000 url(../images/shadow.png) repeat-y 540px 0;
+		}
+		
+		
+		/* Main Column (left)
+		-----------------------------------------------------------*/
+			#main_column{
+				background-color: #000000;
+			}
+			
+			
+					#main_column .navigation ul li a{
+						color: #00FF00;
+					}
+					
+					#main_column .navigation ul li a:hover, #main_column .navigation ul li:hover{
+						background-color: #000000;
+						color: #FFFFFF;
+					}
+			
+				/* Header Image Area
+				-----------------------------------------------------------*/
+				#main_column .header_image{
+					background: url(../images/banners/banner-raconteurs.jpg) no-repeat 0 0;
+				}/* Store Content Area
+				-----------------------------------------------------------*/
+				#store_content h1{
+					color: #00FF00;
+				}
+					
+					/* Category Column
+					-----------------------------------------------------------*/
+					#category_column{
+						background-color: #000000;
+					}
+					
+						#category_column a{
+							color: #00FF00;
+							border-bottom: 1px solid #000000;
+						}
+						
+						#category_column a:hover{
+							background-color: #000000;
+							color: #FFFFFF;
+						}
+					
+					/* Product Area
+					-----------------------------------------------------------*/					
+						#product_main .product_block{
+							background-color: #000000;
+						}
+						
+						#product_main .product_block a{
+							color: #00FF00;
+						}
+											
+							#product_main .view_button a{
+								color: #00FF00;
+								background-color: #000000;
+								border: 1px solid #00FF00;
+								
+							}
+							
+							
+							#product_main .view_button a:hover{
+								background-color: #000000;
+								border: 1px solid #FFFFFF;
+								color: #FFFFFF;
+							}
+							
+							button, .cssButton, .cssButtonHover{
+								color: #;
+								background-color: #;
+								border: 1px solid #;
+							}
+							
+							.cssButtonHover, button:hover{
+								background-color: #;
+								border: 1px solid #;
+								color: #;
+							}
+		
+		/* Right Column
+		-----------------------------------------------------------*/	
+				#right_column h1{
+					color: #00FF00;
+					background: #000000 url(../images/shadow.png) repeat-y 0 0;
+				}
+				
+				#right_column{
+					color: #00FF00;
+				}
+				
+				#right_column a{
+					color: #00FF00;
+				}
+				
+							
+		/* Footer
+		-----------------------------------------------------------*/		
+			#footer{
+				background-color: #000000;
+				color: #00FF00;			
+			}
+			
+				#footer .left_column{
+					background-color: #000000;
+				}
+				
+				#footer .right_column{
+					background: #000000 url(../images/shadow.png) repeat-y 0 0;
+				}
+				
+				#footer .right_column .powered_by{
+					background: url(../images/powered_by_kungfu-black.png) no-repeat 0 0;
+				}
+		
+		#container, #right_column h1, #footer .right_column{
+									background-image: none;
+								}

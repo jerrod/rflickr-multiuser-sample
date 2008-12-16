@@ -1,0 +1,266 @@
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font: 11px/1.4em Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* Miscellaneous
+-----------------------------------------------------------*/
+A{
+	color: #c83094;
+	text-decoration: none;
+}
+
+A:HOVER{
+	text-decoration: underline;
+}
+
+/* Main Container
+-----------------------------------------------------------*/
+#container{
+	margin: 0 auto;
+	padding: 0;
+	width: 750px;
+	text-align: left;
+	background: #c9c9c9 url(../images/shadow.png) repeat-y 540px 0;
+}
+
+
+/* Main Column (left)
+-----------------------------------------------------------*/
+	#main_column{
+		margin: 0;
+		padding: 0;
+		width: 540px;
+		background-color: #7d8a9c;
+		float: left;
+	}
+	
+		/* Main Navigation
+		-----------------------------------------------------------*/
+		#main_column .navigation{
+			margin: 0 0 5px 12px;
+			padding: 0;
+			width: 515px;
+			height: 25px;
+			text-align: center;
+		}
+		
+			#main_column .navigation ul{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			#main_column .navigation ul li{
+				margin: 0;
+				
+				height: 18px;
+				list-style: none;
+				float: left;
+			}
+			
+			#main_column .navigation ul li a{
+				display: block;
+				padding: 4px;
+				height: 18px;
+				width: 60px;
+				color: #c83094;
+			}
+			
+			#main_column .navigation ul li a:hover, #main_column .navigation ul li:hover{
+				background-color: #b7a68c;
+				color: #c83094;
+				text-decoration: none;
+			}
+	
+		/* Header Image Area
+		-----------------------------------------------------------*/
+		#main_column .header_image{
+			margin: 0 0 8px 12px;
+			padding: 0;
+			width: 515px;
+			height: 150px;
+		}
+		
+		/* Store Content Area
+		-----------------------------------------------------------*/
+		#store_content{
+			margin: 0 0 0 12px;
+			padding: 0;
+			width: 515px;
+		}
+		
+			#store_content h1{
+				margin: 0 0 15px 0;
+				padding: 0;
+				font-size: 16px;
+				text-align: center;
+				color: #c83094;
+			}
+			
+			/* Category Column
+			-----------------------------------------------------------*/
+			#category_column{
+				margin: 0;
+				padding: 0;
+				width: 110px;
+				background-color: #c9c9c9;
+				line-height: 1.6em;
+				float: left;
+			}
+			
+				#category_column a{
+					margin: 0;
+					padding: 0 3px 0 3px;
+					height: 18px;
+					display: block;
+					color: #000;
+					text-decoration: none;
+					border-bottom: 1px solid #7d8a9c;
+				}
+				
+				#category_column a:hover{
+					background-color: #b7a68c;
+					color: #c83094;
+					text-decoration: none;
+				}
+			
+			/* Product Area
+			-----------------------------------------------------------*/	
+			
+			#product_main{
+				margin: 0 0 0 5px;
+				padding: 0;
+				width: 400px;
+				float: left;
+			}
+			
+				#product_main .product_block{
+					margin: 0 5px 18px 0;
+					padding: 0;
+					width: 125px;
+					height: 200px;
+					float: left;
+					text-align: center;
+					border: 1px solid #fff;
+				}
+				
+				#product_main .product_block .itemTitle, #product_main .product_block .itemTitle a{
+					margin: 3px 0 3px 0;
+					font-size: 12px;
+					font-weight: bold;
+				}
+				
+				#product_main .product_block .item_price{
+					margin: 0;
+					padding: 0;
+					width: 50px;
+					font-size: 15px;
+					font-weight: bold;
+					float: left;
+				}
+				
+				#product_main .product_block .view_button{
+					margin: 0;
+					padding: 0;
+					width: 50px;
+					text-align: right;
+					float: right;
+				}
+				
+					.view_button a{
+						margin: 0 3px 0 0;
+						padding: 2px;
+						color: #b7a68c;
+						background-color: #c83094;
+						border: 1px solid #b7a68c;
+						
+					}
+					
+					.view_button a:hover{
+						text-decoration: none;
+						background-color: #c9c9c9;
+						border: 1px solid #c83094;
+						color: #c83094;
+					}
+
+
+/* Right Column
+-----------------------------------------------------------*/
+	#right_column{
+		margin: 0;
+		padding: 0;
+		width: 210px;
+		float: left;
+	}
+	
+		#right_column h1{
+			margin: 10px 0 0 0;
+			padding: 2px 4px 2px 12px;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #b7a68c;
+			background: #c83094 url(../images/shadow.png) repeat-y 0 0;
+		}
+		
+		#right_column .content{
+			margin: 0;
+			padding: 0 4px 0 12px;
+		}
+	
+		#search{
+			margin: 30px 0 20px 0;
+			padding: 2px 4px 2px 12px;	
+		}
+		
+			#search input[type=text]{
+				width: 140px;
+			}
+	
+/* Footer
+-----------------------------------------------------------*/		
+	#footer{
+		margin: 0;
+		padding: 0;
+		height: 50px;
+		background-color: #7d8a9c;
+		color: #fff;
+		font-size: 10px;
+		text-align: center;
+		clear: both;
+		
+	}
+	
+		#footer .left_column{
+			margin: 15px 0 0 0;
+			padding: 0;
+			width: 540px;
+			background-color: #7d8a9c;
+			float: left;
+		}
+		
+		#footer .right_column{
+			margin: 0;
+			padding: 0;
+			width: 210px;
+			height: 50px;
+			text-indent: -9999px;
+			float: left;
+			background: #c9c9c9 url(../images/shadow.png) repeat-y 0 0;
+		}
+		
+		#footer .right_column .powered_by{
+			margin: 0;
+			padding: 0;
+			width: 87px;
+			height: 50px;
+			display: block;
+			background: url(../images/powered_by_kungfu.png) no-repeat 0 0;
+			float: right;
+			line-height: 0px;
+			
+		}

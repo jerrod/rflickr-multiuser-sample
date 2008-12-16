@@ -1,0 +1,1372 @@
+
+.column {
+  float: left;
+  display: inline;
+}
+
+.one {
+  width:90px;
+}
+
+.two {
+  width: 200px;
+}
+
+.three {
+  width :310px;
+}
+
+.four {
+  width: 420px;
+}
+
+.five {
+  width: 530px
+}
+
+.six {
+  width: 640px;
+}
+
+.seven {
+  width: 750px;
+}
+
+body {
+  margin:0;
+  padding:31px 0 0 0;
+  font-family: Arial,Helvetica, sans-serif;
+  font-size: 62.5%;/*1em = 10px*/
+  line-height: 2em;
+  min-width:780px;
+}
+
+a {
+  text-decoration:none;
+  color:#900;
+}
+
+a:visited {
+  color:#8F4747;
+}
+
+a:hover {
+  color:#F00;
+}
+
+a img {
+  border: 0;
+}
+
+fieldset {
+  border:0;
+  padding:0;
+}
+
+input {
+  vertical-align: top;
+  margin-left: 0;  
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  border:1px solid;
+  border-color: #848484 #AAA #DDD #AAA;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.1em;
+  color:#000;
+  padding:3px 1px;
+}
+
+select {
+  padding:1px;
+  display:block;
+}
+
+legend {
+  font-size:1.2em;
+  font-weight: bold;
+  padding:0;
+}
+
+label {
+  font-size: 1.1em;
+  vertical-align: baseline;
+  margin-bottom: 5px;
+  display: block;
+}
+
+address {
+  font-style:normal;
+  margin-bottom:1em;
+}
+
+ul {
+  list-style:none;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+}
+
+tr.even td{
+	background-color: #fafafa;
+}
+
+th {
+  border-top:1px solid black;
+}
+
+td {
+  border-top: 1px solid #ccc;
+}
+
+button {
+  border:0;
+  background:none;
+  cursor:pointer;
+  padding:0;
+}
+
+span.button{
+	background: url(/images/buttons/button-left_side.gif) no-repeat top left;
+	height: 17px;
+	padding-left: 10px;
+	margin-bottom: 4px;
+	margin-left: 3px;
+	display: block;
+}
+
+	span.button a{
+			height: 17px;
+			display: block;
+			line-height: 17px;
+			padding-right: 10px;
+			text-align: center;
+			color: #fff;
+			background: url(/images/buttons/button-right_side.gif) no-repeat top right;
+	} 
+	
+#store-tools{
+	text-align: right;
+	width: 640px;
+	position: absolute;
+	top: 127px;
+	left: 140px;
+}
+
+h2 #buy_credits{
+	float: right;
+	background-color: #eee;
+	font-size: 90%;
+	padding: 0 5px;
+}
+
+	h2 #buy_credits a{
+		margin-left: 10px;
+		font-weight: normal;
+	}
+/* PAGINATION
+---------------------------------------*/
+.pagination{
+	text-align: center;
+	margin-bottom: 18px;
+	font-size: 130%;
+}
+
+	.pagination a{
+		padding: 6px;
+		border: 1px solid #fff;
+		color: #d70000;
+	}
+	
+	.pagination a:hover{
+		background-color: #d70000;
+		border: 1px solid #a70000;
+		color: #fff;
+	}
+	
+	.pagination span.disabled{
+		padding: 6px;
+		color: #aaa;
+	}
+	
+	.pagination span.current{
+		padding: 6px;
+		background-color: #ddd;
+		border: 1px solid #bbb;
+	}
+
+.num {
+  text-align:right;
+}
+
+#title {
+  width:100%;
+  height:120px;
+  margin-top:0px;
+  margin-bottom:0px;
+  background-image: url(/images/ui/backgrounds/white_sheep.gif);
+  background-repeat:no-repeat;
+}
+
+#title img{
+  margin-left:130px; 
+}
+
+.caption,
+.caption p{
+  font-size:1em;
+  color:#666;
+  line-height: 1.4em;
+}
+
+#content {
+  margin-left:30px;
+  width:790px;
+}
+
+#highlights {
+  width: 750px;
+  margin: 0 0 20px 0;
+  overflow:hidden;
+}
+
+#highlights img{
+  float:left;
+  display:inline;
+  margin:0 0 5px 0;
+}
+
+#highlights ul{
+  clear:both;
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+#highlights .caption{
+  font-size:1em;
+  float:left;
+  width:230px;
+  padding:0 20px 0 0;
+}
+
+#news {
+  width: 530px;
+  float:left;
+  clear:right;
+  display:inline;
+  clear:left;
+  margin:0 20px 20px 0;
+}
+
+#news h1{
+  width:530px;
+  clear:both;
+}
+
+#news .date{
+  width:90px;
+  float:left;
+  clear:left;
+  display:inline;
+}
+
+#news p{
+  width:420px;
+  float:right;
+  display:inline;
+  font-size: 1.3em;
+}
+
+#newsRelated {
+  width: 530px;
+  clear:both;
+  margin:0 0 60px 0;
+  font-size: 1.2em;
+}
+
+#newsRelated a { 
+  float:left;
+}
+
+#newsRelated form {
+  width:200px; 
+  float:right;
+  margin-top:0;
+}
+
+#events,#newsAccess {
+  width: 200px;
+  float:left;
+  clear:right;
+  display:inline;
+  clear:right;
+  margin:0 0 20px 0px;
+}
+
+#events h1{
+  width: 200px;
+  clear:both;
+  margin:0 0 20px 0px;
+  font-size: 1.3em;
+}
+
+#newsAccess ul {
+  margin-bottom:20px;
+}
+
+#events img {
+  width:88px;
+  display:block;
+  margin:0 20px 20px 0;
+  float:left;
+  clear:left;
+  background:#eee;
+  border:1px solid #ccc;
+}
+
+#events p{
+  width:90px;
+  float:left;
+  _float:none;
+  margin:0 0 20px 0;
+  line-height: 125%;
+}
+
+#events .band {
+  font-weight:bold;
+  display:block;
+}
+
+#events  .show > .status {
+  color:red;
+}
+
+#events .show  .date, 
+#events  .show  .location {
+  display:block;
+}
+
+#about {
+  float:left;
+  display:inline;
+  clear:left;
+  width: 310px;
+  margin: 0 0 20px 0;
+}
+
+#contact {
+  float:left;
+  display:inline;
+  width: 420px;
+  margin: 0 0 20px 20px;
+}
+
+#legal {
+  clear:both;
+  width: 750px;
+  margin: 0 0 0 30px;
+  font-size:1.2em;
+  padding-bottom:40px;
+}
+
+#legal .org {
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.adr {
+  float:left;
+  display:inline;
+  font-style:normal;
+  margin: 0 0 30px 0px;
+}
+
+.adr .region {
+  cursor: help;
+  border: none;
+}
+
+#copyright{
+  width:200px;
+  float:right;
+  display:inline;
+  margin: 0 0 20px 20px;
+}
+
+#legal, 
+#news h1,
+#newsAccess h1, 
+#newsRelated, 
+#events h1, 
+#about, 
+#contact {
+  border-top: 1px solid #000;
+}
+
+
+
+/* BANDS
+-----------------------------------------------*/
+#bands {
+  margin-left:110px;
+  width:700px;
+}  
+
+#bands h1 {
+  font-size:2em;
+  font-weight:normal;
+  padding-top:10px;
+  margin-right:20px;
+  margin-top:0px;
+  margin-bottom:0px;
+  clear:both;
+  border-top:1px solid;
+}
+
+#bands ul {
+  list-style:none;
+  margin-top:-30px;
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-left:0px;
+  padding-top:5px;
+  padding-left:40px;
+}
+
+#bands ul li {
+  width:auto;
+}
+
+#col1,#col2,#col3,#col4 {
+  float:left;
+  display:inline;
+  margin-bottom:30px;
+  width:165px;
+}
+
+/* BAND DETAIL
+-----------------------------------------------*/
+#band{
+  width: 640px;
+  margin:20px 20px 60px 110px;
+  overflow:auto;
+}
+
+#band h1{
+  font-size:2em;
+  line-height:1em;
+  width:200px;
+}
+
+#band .activeYears{
+  width:200px;
+
+}
+
+#band #members{
+  float:left;
+  clear:left;
+  display:inline;
+  list-style:none;
+  width:200px;
+  font-size:1.2em;
+  margin-right:20px;
+  padding:0px;
+}
+
+#band #members .name{
+  font-weight:bold;
+}
+
+#bandphoto{
+  float:left;
+  display:inline;
+}
+
+
+/* RELEASES
+-----------------------------------------------*/
+
+#releases{
+  width:200px;
+  margin:0 20px 20px 110px;
+  float:left;
+  display:inline;
+  clear:left;
+}
+
+#releases img {
+  width:88px;
+  border:1px solid #ccc;
+  float:left;
+  clear:left;
+  display:inline;
+  margin:0 20px 20px 0;
+}
+
+#releases img.blank {
+  width:90px;
+  border:0;
+}
+
+#releases .release {
+  width:200px;
+  float: left;
+  clear:both;
+  font-size: 1.2em;
+  line-height: 1.25em;
+}
+
+#releases .release .band {
+  font-weight:bold;
+  display:block;
+}
+
+#bio{
+  width:310px;
+  float:left;
+  margin:0 20px 20px 0px;
+}
+
+#bandContact {
+  width: 420px;
+  margin: 0 0 20px 20px;
+  font-size:1.2em;
+}
+
+#relatedBands {
+  width:90px;
+  float:left; 
+}
+
+#relatedBands h2{
+  font-size:1.2em;
+  margin-top:0;
+  font-weight: bold;
+}
+
+#relatedBands ul{
+  list-style:none;
+}
+
+#relatedBands li{
+  line-height:1.2em;
+  margin-bottom:.5em;
+}
+
+.release-track-listing .band {
+  font-weight: bold;
+}
+.release-track-listing object {
+  vertical-align: top;
+}
+
+.release-track-listing {
+  margin-left:0;
+}
+
+/* TYPE
+-----------------------------------------------*/
+
+h1 {
+  font-size: 1.4em;
+  margin:0;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin:0;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin:0;
+}
+
+h1 span {
+  font-family:Arial,Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin:0 0 1.5em 0;
+  font-size: 1.2em;
+}
+
+ul{
+  margin:0 0 1em 0;
+  padding:0;
+  list-style:none;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+li h2 {
+  font-size:1em;
+}
+
+li li {
+  font-size: 1em;
+}
+
+th {
+  font-size: 1.2em;
+}
+
+td {
+  font-size: 1.2em;
+}
+
+.note {
+  font-size:1em;
+}
+
+/* STORE
+-----------------------------------------*/
+#page-nav input {
+  display: inline;
+}
+
+#store{
+  width:640px;
+  clear:both;
+  margin-left: 110px;
+  padding-bottom:100px; 
+}
+
+#store h1 {
+  font-size: 1.8em;
+}
+
+#store h2 {
+  font-weight: bold;
+  font-size:1.2em;
+}
+
+#catalog, .checkout {
+  padding:0;
+}
+
+#categories {
+  font-size: 1.2em;
+}
+
+.navSplitPagesResult,
+.navSplitPagesLinks {
+  font-size: 1.2em;
+}
+
+#productListing  {
+  clear: left;
+  padding: 5px 0;
+}
+
+#productNav {
+  clear: left;
+  padding: 10px 0 0;
+  border-top: 1px solid #000;
+  margin-top:8px;
+  overflow:hidden;
+}
+
+#productListing .releaseNumber,
+#productListing .band,
+#productListing .releaseTitle {
+  font-size: 1.2em;
+  line-height: 1.25em;
+}
+
+
+#productListing img {
+  border: 1px solid #ccc;
+  width: 88px;
+  height: 88px;
+}
+#productListing span.release {
+	font-weight:normal;
+	line-height:1em;
+}
+#productListing .release {
+  width: 90px;
+  margin-right: 20px;
+  float: left;
+  display: inline;
+}
+
+#productListing .releaseTitle {
+  display: block;
+  font-style:italic;
+  margin-bottom: 8px;
+}
+
+* html #productListing .releaseTitle {
+  font-style:normal;
+  word-wrap:break-word;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+#store #description {
+  float: left;
+}
+
+#store #relatedLabels {
+  list-style:none;
+  margin:0;
+}
+
+
+
+
+/*---------------------------------------
+catalog
+-----------------------------------------*/
+
+#catalog {
+  width:641px;
+  float:left;
+  display:inline;
+}
+
+#catalog ul{
+  padding:0;
+}
+
+#catalog .item{
+  float:left;
+  display:inline;
+  margin-right:20px;
+  margin-bottom:10px;
+  width: 90px;
+line-height:120%;
+}
+
+.last{
+  margin-right: 0 !important;
+}
+
+
+#catalog .item img{
+  width:88px;
+/*  height:90px;*/
+  background:#CCC;
+  border:1px solid #ccc;
+  display:block;
+  margin-bottom:10px;
+}
+
+#catalog .item .blank{
+  border:0;
+}
+
+#catalog .item span {
+  display:block;
+  line-height:1.3em;
+}
+
+#catalog .band {
+  font-weight:bold;
+  display: block;
+}
+
+#catalog .releaseNumber {
+  display: block;
+}
+
+#catalog .price {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#catalog .item .buttons {
+  line-height:20px;
+}
+
+#productPrices form,
+#catalog .buttons form{
+  padding:0 0 3px 6px;
+  margin: 3px 0;
+  background: url(/images/ui/buttons/button_end_left.png) no-repeat left top;
+  height: 14px;
+  overflow: hidden;
+}
+
+#productPrices form button,
+#catalog .buttons form button{
+  background:#666 url(/images/ui/buttons/button_end_right.png) no-repeat right top;
+  color:#fff;
+  font-size:10px;
+  line-height: 1.3em;
+  padding:2px 6px 3px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  overflow: visible;
+}
+
+.catalog-filters {
+  padding:5px 0;
+  overflow:hidden;
+  border-top: solid 1px #000;
+  float: left;
+  width: 640px;
+}
+
+.catalog-filters fieldset{
+  display:block;
+  float:left; 
+  border:0;
+  padding:0;
+  margin:0 14px 0 0px; 
+}
+
+fieldset.search-group {
+  margin-right: 0;
+}
+
+.catalog-filters label{
+  display:block;
+  max-width:190px;
+}
+
+.catalog-filters .checkbox-group{
+}
+
+.catalog-filters .selected {
+  background-color:#E9C2B0;
+}
+
+.catalog-filters .checkbox-group label{
+  float:left;
+  clear:left;
+  margin: 5px 0 0;
+  padding:0 4px;
+}
+
+.catalog-filters .checkbox-group input{
+  display:inline;
+}
+
+.catalog-filters select{
+  display:block;
+  width: 90px;
+  margin: 5px 0 0;
+  font-size:10px;
+}
+
+.catalog-filters .search-group label {
+  margin:5px 0;
+}
+
+.catalog-filters .search-group .text{
+  float:left;
+  margin-right:5px;
+  width: 145px;
+  font-size:10px;
+}
+
+.catalog-filters .search-group .submit{
+  float:left;
+  vertical-align:middle;
+}
+
+.catalog-filters #sort-field select {
+  float:left;
+  margin-right:5px;
+}
+
+.catalog-filters #sort-field .radio-group {
+float:left;
+margin-right:0;
+padding-top:3px;
+}
+
+.catalog-filters #sort-field label {
+  margin-left:-3px;
+}
+
+#sort-field {
+  clear:left;
+  margin-right:0;
+}
+
+.catalog-filters #sort-field .radio-group input {
+  margin:0;
+}
+
+.catalog-filters #sort-field .radio-group label {
+font-size:9px;
+margin:0;
+}
+
+
+.catalog-filters .radio-group * {
+  display:inline;
+  vertical-align:middle;
+}
+
+#catalog-groupings {
+  width: 90px;
+  margin-right:20px;
+}
+
+#catalog-labels {
+  width: 200px;
+  margin-right:20px;
+}
+
+.catalog-spinner {
+  display:none;
+  margin-right: 5px;
+}
+
+.prevBtn {
+  margin-right: 1px;
+}
+
+
+/* RELEASE DETAIL
+-----------------------------------------------*/
+
+#productmusicinfoBody #store #description{
+  display:none;
+}
+
+#productmusicinfoBody #store #catalog{
+  float:none;
+  width:auto;
+}
+
+#releaseDetail{
+  width:660px;
+  overflow: hidden;
+  clear:both;
+}
+
+#releaseDetail #productMainImage {
+  float:left;
+  margin-right: 80px;
+  padding:0px;
+  width:250px;
+}
+
+#releaseDetail #productMainImage img {
+  border:1px solid #ccc;
+}
+
+#releaseDetail #productInfo {
+  width: 310px;
+  float: left;
+  border-top: 1px solid #000;
+}
+
+#releaseDetail h1{
+  font-size:1.8em;
+  margin-bottom:.5em;
+  line-height:1.1em;
+  width: 200px;
+  float: left;
+  display: inline;
+}
+
+#releaseDetail h1 .releaseNumber {
+  font-size:.67em;
+  font-weight:normal;
+  display:block;
+}
+
+#releaseDetail h1 .releaseFormat {
+  font-size:.67em;
+  font-weight:bold;
+}
+
+#releaseDetail h1 cite{
+  font-weight:normal;
+  display:block;
+}
+
+#releaseDetail #productPrices {
+  margin:5px 0 1em;
+  float: right;
+  width:auto;
+  line-height:1;
+}
+
+#releaseDetail #productPrices form {
+  margin: 0 0 .5em;
+}
+
+#releaseDetail #productPrices .note {
+  line-height:1.2em;
+  width:90px;
+}
+
+#releaseDetail #productDescription {
+  clear: both;
+  border-top: 1px solid #000;
+  padding: 5px 0;
+}
+
+#productDescription dl {
+  overflow:hidden
+}
+
+#productDescription dt {
+  margin: 0 1em 0 0;
+  float:left;
+  clear:left;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+
+#productDescription  dd {
+  margin:0;
+  font-size: 1.2em;
+}
+
+#productDescription  dt.inline {
+  margin:-1.7em 0.5em 0em 2em;
+  font-weight:normal;
+  float:left;
+  display:inline;
+}
+
+#productDescription ol {
+  clear:left;
+  padding:0 0 0 2.3em;
+}
+
+/*---------------------
+.checkout form
+-----------------------*/
+
+.checkout legend {
+}
+.checkout label{
+  display:block;
+  margin: 0 20px 1.2em 0;
+}
+
+.checkout br {
+  clear:both;
+}
+
+/* TOURS
+---------------------------------------------------*/
+
+#content #subscribe {
+  float:right;
+  font-size:1.2em;
+  font-weight:bold;
+  margin:0 10px 5px 0;
+}
+
+.bandsOnTour {
+  width:750px;
+  padding-top:10px;
+  padding-bottom:70px;
+  margin-left:30px;
+  clear:both;
+  border-collapse:collapse;
+}
+
+.bandsOnTour th {
+  text-align:left;
+  border-top: 1px solid black;
+  padding: 0 20px 0 0;
+  font-size: 1.4em;
+}
+
+.bandsOnTour .artistname {
+  vertical-align: top;
+  width:90px;
+}
+
+.bandsOnTour .artistname a {
+  display: inline !important;
+  margin-bottom:1em;
+}
+
+.bandsOnTour th img{
+  width: 88px;
+  height: auto;
+  border: 1px solid #ccc;
+  display: block;
+  margin:1.6em 0;
+}
+
+.bandsOnTour td {
+  text-align:left;
+  border-bottom: 1px solid #ccc;
+  padding-right:20px;
+  vertical-align: top;
+  line-height:1.4em;
+}
+
+.bandsOnTour tr.event:last-child td {
+ border-top:1px solid #ccc;
+ border-bottom: 0;
+}
+
+.bandsOnTour .summary {
+  display: none;
+}
+
+.bandsOnTour .date {
+  width: 90px;
+}
+
+.bandsOnTour .location {
+  width: 200px;
+}
+
+.bandsOnTour .location .fn {
+  display: block;
+}
+
+.bandsOnTour .street-address {
+  display:block;
+}
+
+.bandsOnTour .dtstart {
+  white-space:nowrap;
+  border: none;
+}
+
+.bandOnTour img {
+  width:200px;
+  margin-right:20px;
+  float:left;
+  clear:left;
+}
+
+.bandOnTour h1 {
+  width:90px;
+  margin-right:20px;
+  float:left;
+}
+
+.bandOnTour p {
+  width:200px;
+  float:left;
+  margin-right:20px;
+}
+
+p.additionalInfo {
+  clear:right;
+  margin-right:0;
+}
+ .highlight {
+	background: yellow;
+}
+/* DOWNLOADS
+-----------------------------------------------------*/
+
+#intro {
+  width:200px;
+  margin: 0 20px 0 0;
+  float:left;
+  display:inline;
+}
+
+#downloads {
+  width:540px;
+  float:left;
+  display:inline;
+}
+
+#downloads .mediaItem {
+  padding-top:5px; 
+  border-top:1px solid;
+  list-style:none;
+  clear:both;
+  overflow:hidden;
+  padding-bottom:10px;
+}
+
+#downloads cite {
+  font-family:Arial, sans-serif;
+}
+
+#downloads .mediaItem object {
+  height:0;
+  width:0;
+}
+
+#downloads .mediaItem .note {
+  margin-bottom:.5em;
+}
+
+.mediaItem img {
+  width:24px;
+  float:left;
+  display:inline;
+}
+
+
+/* HISTORY
+---------------*/
+#photos{
+  float:left;
+  display:inline;
+  margin-bottom:3em;
+}
+
+#pageNavigation, #text {
+
+padding-top:20px; width: 540px; margin-left:250px; text-align:justify; }
+
+#historyPhotoCaptions{
+
+width:200px; margin-left:30px; float:left; display:inline; text-align:left; }
+
+#pageNavigation{
+  border-top:1px solid #ccc;
+/*  clear:both;*/
+  text-align:right;
+  margin-bottom:3em;
+}
+
+#pageNavigation img {
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+/* PRIVACY */
+
+#privacy, #credits, #direct {
+width: 640px;
+margin:0 20px 130px 140px;
+text-align:justify;
+}
+/* CREDITS */
+
+
+.credits {
+  width:200px;
+  float:left;
+  display:inline;
+  list-style:none;
+  margin-right:20px;
+}
+
+.credits li {
+  margin-bottom:1em;
+  line-height:1.2;
+}
+
+/* SEARCH */
+#results {
+  margin:0 0 0 110px;
+}
+
+#results h1 {
+ font-size:1.8em;
+}
+
+#results h2 {
+  border-top:1px solid;
+  font-weight:bold;
+}
+
+#results ol,
+#results ul,
+#results table {
+  margin:0 0 1em 0;
+  list-style:none;
+  width:100%;
+}
+
+#results .releaseNumber {
+  width:50px;
+}
+
+#results .band {
+  font-weight:bold;
+}
+
+#results .releaseTitle {
+
+}
+
+/* faq */
+#faq {
+  margin-left:110px;
+}
+
+.Q {
+  margin:0;
+  font-weight:bold;
+}
+
+/* ERROR MESSAGE BLOCK
+-------------------------------------------*/
+#notice {
+	position: absolute;
+	z-index: 100;
+	top: 15px;
+	width: 725px;
+	padding:10px;
+	left: 30px;
+	border: 2px solid #f04300;
+	font-weight:bold;
+	font-size:16px;
+	text-align: center;
+	background-color: #ff6800;
+	color: #fff;
+}
+
+.errorNotice, #errorExplanation {
+  width: 625px;
+  border: 4px solid #990000;
+  padding: 4px;
+  background-color: #eee;
+  margin-bottom: 20px;
+	font-weight:bold;
+	color: #555;
+}
+
+.cc_errorNotice {
+  width: 410px;
+  border: 4px solid red;
+  padding: 4px;
+  margin-bottom: 20px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #fff;
+  background: red;
+}
+
+#errorExplanation h2 {
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #710000;
+	background-color: #a91e22;
+	color: #fff;
+}
+
+#errorExplanation p{
+	margin-top: 5px;
+}
+
+#errorExplanation ul li {
+	margin: 0 10px 10px 25px;
+	padding: 0;
+	list-style: disc;
+}

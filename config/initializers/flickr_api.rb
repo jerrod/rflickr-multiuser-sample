@@ -1,0 +1,5 @@
+FLICKR_KEY    = 'fa5c6b3827201c58ab8a1875c74d235a'
+FLICKR_SECRET = 'bc6d36b487290939'
+
+require "flickr"
+

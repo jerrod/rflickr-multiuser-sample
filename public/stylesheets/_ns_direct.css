@@ -1,0 +1,95 @@
+#dischordDirect a {
+   color:#7B9586;
+}
+
+
+#dischordDirect #navigation {
+   background-color:#7B9586;
+}
+
+#dischordDirect #title {
+   background-image:none;
+   background-color:#7B9586;
+   height:95px;
+}
+
+#dischordDirect .intro {
+   margin:0px 20px 40px 140px;
+   width:420px;
+   float:none;
+
+
+}
+
+
+
+#dischordDirect .picture {
+   margin:30px 0 30px 20px;
+   display:block;
+   clear:both;
+   width:760px;
+   position:relative;
+}
+
+#dischordDirect .picture img{
+
+}
+
+#dischordDirect .picture .caption {
+   width:90px;
+   clear:none;
+   position:absolute;
+   right:0px;
+   top:0;
+}
+
+#dischordDirect #catalogs {
+   margin:0px 20px 40px 140px;   
+   float:none;
+   list-style:none;
+
+}
+
+#dischordDirect #catalogs li{
+   margin-bottom:1em;
+}
+
+#dischordDirect h2 {
+   clear:both;
+   margin-left:30px;
+}
+
+#releaseSchedule{
+   width:750px;
+   padding-top:10px;
+   padding-bottom:70px;
+   margin-left:30px;
+   margin-bottom: 100px;
+   clear:both;
+   border-collapse:collapse;
+}
+
+#releaseSchedule th {
+   text-align:left;
+   border-top: 1px solid black;
+}
+#releaseSchedule td {
+   text-align:left;
+   border-top: 1px solid #ccc;
+   min-width:110px;
+}
+
+table#track_list{
+	width: 100%;
+}
+
+	table#track_list td.track_name{
+		vertical-align: middle;
+	}
+	
+	table#track_list td.actions{
+		padding-top: 5px;
+		vertical-align: middle;
+		width: 65px;
+		font-size: 95%;
+	}

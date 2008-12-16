@@ -1,0 +1,128 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+EXAMPLE CUSTOM THEME
+
+--
+
+Feel free to customize this template
+or find other great CSS themes 
+from the Wufoo CSS Theme Gallery!
+
+http://wufoo.com/gallery/designs/
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Logo */
+h1 a {
+	background-image:url('../images/wflogo.png'); 
+	min-height:0; 
+	height:40px
+}
+* html h1 a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wflogo.png", sizingMethod="crop")
+}
+
+/* Backgrounds */
+body{
+	background-image:none;
+	background-color:#eeeeee
+}
+h1{
+	background-image:none;
+	background-color:#C53B1C
+}
+#container{
+	background:#FFFFFF
+}
+.wufoo input.text, .wufoo textarea.textarea{
+	background:#FFFFFF url(../images/fieldbg.gif) repeat-x top
+}
+.wufoo .focused{
+	background:#FFF7C0
+}
+.wufoo .instruct{
+	background-color:#F5F5F5
+}
+
+/* Borders */
+#container{
+	border:0 solid #ff9900
+}
+.wufoo .info{
+	border-bottom:1px dotted #CCCCCC
+}
+.wufoo .section{
+	border-top:1px dotted #CCCCCC
+}
+.wufoo input.text, .wufoo textarea.textarea{
+	border:;
+}
+.wufoo .instruct{
+	border:1px solid #E6E6E6
+}
+
+/* Typography */
+.wufoo .info h2{
+	font-size:160%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#000000
+}
+.wufoo .info p{
+	font-size:95%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444
+}
+.wufoo .section h3{
+	font-size:110%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#000000
+}	
+.wufoo .section p{
+	font-size:85%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444
+}	
+.wufoo label.desc{
+	font-size:95%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444
+}	
+.wufoo li div, .wufoo li div label, .wufoo li span label, .wufoo span{
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444
+}	
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
+	font-size:100%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#333333
+}
+.wufoo label.choice{
+	color:#444444
+}
+.wufoo .instruct{
+	font-size:80%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444
+}
+
+/* Drop Shadows */
+#top, #bottom{
+	visibility:visible
+}

@@ -1,0 +1,500 @@
+/**
+ * Main CSS Stylesheet
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2005 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: stylesheet.css 3215 2006-03-20 06:05:55Z birdbrain $
+ */
+/**/
+
+.checkout * {
+  font-size:1.2em;
+}
+
+.checkout * * {
+  font-size:1em;
+}
+
+h1,h2,h3,h4,h5 {
+  clear:left
+}
+
+caption {
+  text-align:left;
+}
+
+td {
+  vertical-align:top;
+}
+
+/*warnings, errors, messages*/
+.messageStackWarning, .messageStackError, .messageStackSuccess, .messageStackCaution {
+	line-height: 1.2em;
+	font-size:1.4em;
+	margin-bottom:1em;
+	}
+	
+.messageStackWarning img,
+.messageStackError img,
+.messageStackSuccess img,
+.messageStackCaution img {
+  float:left;
+  padding: 0 15px 20px 0;
+}
+
+.messageStackWarning, .messageStackError {
+  color: #ff0000;
+	}
+
+.messageStackSuccess {
+  color: #3C0;
+	}
+
+.messageStackCaution {
+color: #FF9900;
+	}
+	
+.messageStackWarning img, .messageStackError img, .messageStackSuccess img, .messageStackCaution img {
+vertical-align:middle;
+padding-bottom:5px;
+}
+  
+
+.navNextPrevList {
+	display: inline;
+	white-space: nowrap;
+	margin: 0;
+	padding:  0.5em 0em;
+	list-style-type: none;
+	}
+
+
+
+.alert {
+  font-size: 1em;
+	color: #FF0000;
+}
+
+.advisory {
+  font-size: 1em;
+  color: #999;
+}
+
+.important {
+	font-weight: bold;
+	}
+.notice {}
+.rating{}
+.gvBal {
+	float: right;
+	}
+
+
+/*Shopping Cart Display*/
+#scUnitHeading,#scTotalHeading,#ccTotalHeading,
+.cartUnitDisplay,.cartTotalDisplay {
+  text-align: right;
+}
+
+#cartAdd {
+	float: right;
+	text-align: center;
+	margin: 1em;
+	border: 1px solid #000000;
+	padding: 1em;
+}
+
+#cartSubTotal {
+	border-top: 1px solid #cccccc;
+	font-weight: bold;
+	text-align: right;
+	line-height: 2.2em;
+	padding-right: .5em;
+	font-size:1.4em;
+	}
+
+.tableRow, .tableHeading, #cartSubTotal {
+	height: 2.2em;
+	}
+
+.cartTotalsDisplay {
+  font-size:1.2em;
+}
+.cartProductDisplay, .cartUnitDisplay, .cartTotalDisplay, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, #cartInstructionsDisplay, .cartTotalsDisplay   {
+	padding: 5px 0em 0px;
+	}
+
+
+#scUpdateQuantity {
+	width: 2em;
+	}
+
+.cartQuantity {
+	width: 2em;
+	}
+
+.cartNewItem {
+	color: #33CC33;
+	position: relative;  /*do not remove-fixes stupid IEbug*/
+	}
+
+.cartOldItem {
+	color: #660099;
+	position: relative;   /*do not remove-fixes stupid IEbug*/
+	}
+
+.cartBoxTotal {
+	text-align: right;
+	font-weight: bold;
+	}
+
+
+#cartAttribsList {
+  margin-left: 1em;
+  list-style:none;
+  display:inline;
+  margin-right:12px;
+}
+
+#mediaManager {
+width: 50%; 
+margin: 0.2em;
+padding: 0.5em;
+}
+.normalprice, .productSpecialPriceSale {
+	text-decoration: line-through;
+	}
+
+.productSpecialPrice, .productSalePrice, .productSpecialPriceSale, .productPriceDiscount {
+	color: #ff0000;
+	}
+
+#cartBoxListWrapper ul, #ezPageBoxList ul {
+	list-style-type: none;
+	}
+
+#cartBoxListWrapper li, #ezPageBoxList li, .cartBoxTotal {
+	margin: 0;
+	padding: 0.2em 0em;
+	} 
+
+.totalBox {
+	width: 5.5em;
+	text-align: right;
+	padding: 0.2em;
+	}
+
+.lineTitle, .amount {
+	text-align: right;
+	padding: 0.2em;
+	}
+
+.amount {
+	width: 5.5em;
+	}
+
+#cartImage {
+	border: 1px solid #ccc;
+	margin: 0px 10px 5px 0;
+	padding: 0px 0px 0px 0px;
+	height: 30px;
+	width: 30px;
+	float: left;
+	}
+
+/*Attributes*/
+.attribImg {
+	width: 20%;
+	margin: 0.3em 0em;
+}
+
+.attributesComments {}
+
+/*list box contents*/
+.centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew {
+	margin: 1em 0em;
+	}
+
+/*sideboxes*/
+.columnLeft {}
+
+h3.leftBoxHeading, h3.leftBoxHeading a {
+	font-size: 1em;
+	color: #ffffff;
+	}
+
+.leftBoxHeading, .centerBoxHeading {
+	margin: 0em;
+	background-color: #FF6699;
+	padding: 0.5em 0.2em;
+	}
+
+.leftBoxContainer {
+	border: 1px solid #ffffff;
+	float: left;
+	display: inline;
+	clear: left;
+	margin-left:  -110px;
+	width: 90px;
+	}
+
+.sideBoxContent {
+	background-color: #ffffff;
+	padding: 0.4em;
+	}
+
+h3.rightBoxHeading, h3.rightBoxHeading a {
+	font-size: 1.1em;
+	color: #FFFF00;
+	}
+
+.rightBoxHeading {
+	margin: 0em;
+	background-color: #663366;
+	padding: 0.2em 0em;
+	}
+
+h3.leftBoxHeading a:hover {
+	color: #FFFF33;
+	text-decoration: none;
+	} 
+
+h3.rightBoxHeading a:hover {
+	color: #FF0000;
+	text-decoration: none;
+	}
+
+.rightBoxContent {
+	background-color: #ffffff;
+	margin-bottom: 1em;
+	}
+
+TH, #cartBoxGVButton, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .productListing-data, .accountQuantityDisplay, .ratingRow, LABEL#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {
+	text-align: center;
+	}
+
+#bestsellers .wrapper {
+	margin: 0em 0em 0em 1.5em;
+	}
+
+#bestsellers ol {
+	padding: 0;
+	margin-left: 1.1em;
+	}
+
+#bestsellers li {
+	padding: 0;
+	margin: 0.3em 0em 0.3em 0em;
+	}
+
+#bannerboxHeading {
+	background-color: #0000CC;
+}
+
+#upProductsHeading {
+	text-align: left;
+	}
+
+#upDateHeading {
+	text-align: right;
+	}
+
+/*misc*/
+.back {
+	float: left;
+	clear:left;
+	}
+
+.forward {
+	float: right;
+/*	margin-top:1em;*/
+	}
+
+.bold {
+	font-weight: bold;
+	}
+
+.rowOdd {
+	background-color: #FFF;
+	height: 1.5em;
+	vertical-align: top;
+	}
+
+.rowEven {
+	background-color: #FFF;
+	height: 1.5em;
+	vertical-align: top;
+	}
+
+table#cartContentsDisplay {
+  font-size: 1em;
+}
+
+#cartContentsDisplay th {
+  border-top: 1px solid black;
+  padding-right: 20px;
+  font-size: 1.2em;
+}
+
+#cartContentsDisplay td {
+  border-top: 1px solid #CCC;
+  padding-right: 20px;
+}
+
+#cartContentsDisplay th:last-child,
+#cartContentsDisplay td:last-child {
+  padding-right: 0;
+}
+
+#cartContentsDisplay #scRemoveHeading, 
+#cartContentsDisplay .cartRemoveItemDisplay {
+	padding-right: 0;
+}
+
+#cartContentsDisplay input {
+  display: inline;
+}
+
+
+#myAccountGen li, #myAccountNotify li {
+	margin: 0;
+	} 
+
+.accountTotalDisplay, .accountTaxDisplay {
+	width: 20%;
+	text-align: right;
+	/*vertical-align: top*/
+	}
+
+.accountQuantityDisplay {
+	width: 10%;
+	vertical-align: top
+	}
+
+
+.tableHeading TH {
+	text-align: left;
+	border-top:1px solid black;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	}
+
+.tableHeading, #cartSubTotal {
+	background-color: #e9e9e9;
+	 }
+	
+TR.tableHeading {
+	background-color: white;
+	height: 2em;
+	}
+
+#siteMapList {
+	width: 90%;
+	float: right;
+	}
+
+.ratingRow {
+	margin: 1em 0em 1.5em 0em;
+	}
+
+LABEL#textAreaReviews {
+	font-weight: normal;
+	margin: 1em 0em;
+	}
+
+#popupShippingEstimator, #popupSearchHelp, #popupAdditionalImage, #popupImage, #popupCVVHelp, #popupCouponHelp, #popupAtrribsQuantityPricesHelp {
+	background-color: #ffffff;
+	}
+	
+.checkout,
+.cart {
+  width: 640px;
+  clear:both;
+}
+
+.checkout h1,
+.checkout h2,
+.checkout h3 {
+  font-size: 1.165em;
+}
+	
+.checkout form,
+.checkout .module {
+	margin:20px 0 10px;
+	padding-top: 6px;
+	border-top: 1px solid #000;
+	overflow: hidden;
+}
+
+.checkout fieldset {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px 0;
+	padding: 10px 0;
+	overflow:hidden;
+}
+
+.checkout label {
+  float: left;
+  margin:0 20px 10px 0;
+  width:200px;
+}
+
+.checkout label.checkboxLabel, 
+.checkout label.radioButtonLabel {
+  margin: 0.5em 1em 0.5em 0.3em;
+  display:inline;
+  float:none;
+}
+
+.checkout label input,
+.checkout input[type="text"]{
+  width: 196px;
+}
+
+.checkout .cartQuantity input {
+  width:auto;
+}
+
+.checkout label select {
+  width: 200px;
+}
+
+.checkout #country {
+  float:left;
+  width:200px;
+}
+
+.ccinfo {
+  margin:-1.4em 0 0 220px;
+}
+
+
+.ccinfo select {
+  display:inline;
+  margin:0 4px 0 0;
+}
+
+.buttonRow {
+  margin: .5em 0 1em;
+}
+
+#submit {
+  float: left;
+  display: inline;
+ padding-top: 2em;  
+}
+
+#submit a {
+  display: block;
+  width: 80px;
+  padding:5px;
+  line-height: 1.2em;
+}
+
+.floatingBox {
+  overflow:hidden;
+  width:100%;
+}

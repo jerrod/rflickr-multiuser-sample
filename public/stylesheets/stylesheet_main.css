@@ -1,0 +1,373 @@
+/*-----------------------------------------------------------------
+CSS Style Sheet for individual bands
+
+**This is the main template for positioning and sizing. Colors are
+controlled from CSS output of the template editor.**
+
+version: 	1.0
+author: 	Impressive Designs
+email:		info@impdesigns.com
+website:	http://www.impdesigns.com
+copyright:	(c)2006
+generator:	Kung Fu Template Editor		
+-------------------------------------------------------------------*/
+		
+		body{
+			margin: 0;
+			padding: 0;
+			font: 11px/1.4em Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+		
+		/* Miscellaneous
+		-----------------------------------------------------------*/
+		A{
+			text-decoration: none;
+			border:  none;
+		}
+		
+		A:HOVER{
+			text-decoration: underline;
+		}
+		
+				
+		/* Main Container
+		-----------------------------------------------------------*/
+		#container{
+			margin: 0 auto;
+			padding: 0;
+			width: 750px;
+			text-align: left;
+		}
+		
+		
+		/* Main Column (left)
+		-----------------------------------------------------------*/
+			#main_column{
+				margin: 0;
+				padding: 0;
+				width: 540px;
+				float: left;
+			}
+			
+				/* Main Navigation
+				-----------------------------------------------------------*/
+				#main_column .navigation{
+					margin: 0 0 5px 12px;
+					padding: 0;
+					width: 515px;
+					height: 25px;
+					text-align: center;
+				}
+				
+					#main_column .navigation ul{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+					}
+					
+					#main_column .navigation ul li{
+						margin: 0;
+						
+						height: 18px;
+						list-style: none;
+						float: left;
+					}
+					
+					#main_column .navigation ul li a{
+						display: block;
+						padding: 4px;
+						height: 18px;
+						width: 60px;
+					}
+					
+					#main_column .navigation ul li a:hover, #main_column .navigation ul li:hover{
+						text-decoration: none;
+					}
+			
+				/* Header Image Area
+				-----------------------------------------------------------*/
+				#main_column .header_image{
+					margin: 0 0 8px 12px;
+					padding: 0;
+					width: 515px;
+					height: 150px;
+				}
+				
+					#main_column .header_image a{
+						display: block;
+						width: 515px;
+						height: 150px;
+						line-height: 0;
+						text-indent: -9999px;
+					}
+					
+					#main_column .header_image a:hover{
+						text-decoration: none;
+					}
+				/* Store Content Area
+				-----------------------------------------------------------*/
+				#store_content{
+					margin: 0 0 0 12px;
+					padding: 0;
+					width: 515px;
+				}
+				
+					#store_content h1{
+						margin: 0 0 15px 0;
+						padding: 0;
+						font-size: 16px;
+						text-align: center;
+						line-height: normal;
+					}
+					
+					#store_content h1.band_name{
+						padding: 0;
+						margin: 0;
+						text-align: left;
+						font-size: 18px;
+					}
+					
+					#store_content .product_name {
+						text-align: left;
+						font-size: 14px;
+						
+					}
+					
+					#store_content h2.product_price_block{
+						margin: 4px 0 4px 0;
+						padding: 0;
+					}
+					
+					#store_content .product_description{
+						font-size: 11px;
+					}
+					
+					#store_content .model_number{
+						color: #ff4d00;
+						font-size: 12px;
+					}
+					
+					#store_content .block_information{
+						margin: 0 0 15px 0;
+					}
+					
+					#cart_box{
+						width: auto;
+						margin: 0 0 20px 0;
+						padding: 5px 0 0 0;
+						border-top: 3px double #ccc;
+					}
+					
+					#productAdditionalImages{
+						margin: 0;
+						padding: 0;
+					}
+					
+					.additional_images{
+						width: 120px;
+						margin: 0 7px 6px 0;
+						padding: 2px;
+						float: left;
+						color: #fff;
+					}
+					
+					#product_image{
+						width: 200px;
+						margin: 0 10px 0 0;
+						text-align: center;
+						float: left;
+					}
+					
+					
+					
+					#product_info_display{
+						margin: 10px 0 0 0;
+						padding: 0;
+					}
+					
+						#product_info_top{
+						
+						}
+						
+						#product_info_left{
+							width: 200px;
+							text-align: center;
+							float: left;
+							margin: 0;
+							padding: 0;
+						}
+						
+						#product_info_right{
+							width: 175px;
+							float: left;
+							margin: 0 0 0 3px;
+							padding: 0;
+						}
+					/* Category Column
+					-----------------------------------------------------------*/
+					#category_column{
+						margin: 15px 0 0 0;
+						padding: 0;
+						width: 110px;
+						line-height: 1.6em;
+						float: left;
+					}
+					
+						#category_column a{
+							margin: 0;
+							padding: 0 3px 0 3px;
+							height: 18px;
+							display: block;
+							text-decoration: none;
+						}
+						
+						#category_column a:hover{
+							text-decoration: none;
+						}
+					
+					/* Product Area
+					-----------------------------------------------------------*/	
+					
+					#product_main{
+						margin: 0 0 0 5px;
+						padding: 0;
+						width: 390px;
+						float: left;
+					}
+					
+						#product_main .product_block{
+							margin: 0 5px 18px 0;
+							padding: 8px 0 3px 0;
+							width: 125px;
+							height: auto;
+							float: left;
+							text-align: center;
+						}
+						
+						#product_main .product_block .itemTitle, #product_main .product_block .itemTitle a{
+							height: 50px;
+							margin: 3px 0 3px 0;
+							font-size: 11px;
+							font-weight: bold;
+						}
+						
+						#product_main .product_block .item_price{
+							margin: 0;
+							padding: 0;
+							width: 50px;
+							font-size: 15px;
+							font-weight: bold;
+							float: left;
+						}
+						
+						#product_main .product_block .view_button{
+							margin: 0;
+							padding: 0;
+							width: 50px;
+							text-align: right;
+							float: right;
+						}
+						
+							.view_button a{
+								margin: 0 3px 0 0;
+								padding: 2px;								
+							}
+							
+							.view_button a:hover{
+								text-decoration: none;
+							}
+		
+			/* Right Column
+			-----------------------------------------------------------*/
+			#shoppingCart .cartProductDisplay, #shoppingCart .cartProductDisplay a{
+				color: #000;
+			}
+			
+			#shoppingCart .tableHeading{
+				color: #000;
+			}
+			
+			#cartSubTotal{
+				color: #000;
+			}
+		
+		
+		
+		/* Right Column
+		-----------------------------------------------------------*/
+			#right_column{
+				margin: 0;
+				padding: 0;
+				width: 210px;
+				float: left;
+			}
+			
+				#right_column h1{
+					margin: 10px 0 0 0;
+					padding: 2px 4px 2px 12px;
+					font-size: 14px;
+					text-transform: uppercase;
+				}
+				
+				#right_column .content{
+					margin: 0;
+					padding: 0 4px 0 12px;
+				}
+			
+				#search{
+					margin: 30px 0 20px 0;
+					padding: 2px 4px 2px 12px;	
+				}
+				
+					#search input[type=text]{
+						width: 140px;
+					}
+			
+		/* Footer
+		-----------------------------------------------------------*/		
+			#footer{
+				margin: 0;
+				padding: 0;
+				height: 50px;
+				font-size: 10px;
+				text-align: center;
+				clear: both;
+				
+			}
+			
+				#footer .left_column{
+					margin: 15px 0 0 0;
+					padding: 0;
+					width: 540px;
+					float: left;
+				}
+				
+				#footer .right_column{
+					margin: 0;
+					padding: 0;
+					width: 210px;
+					height: 50px;
+					text-indent: -9999px;
+					float: left;
+				}
+				
+				#footer .right_column .powered_by{
+					margin: 0;
+					padding: 0;
+					width: 87px;
+					height: 50px;
+					display: block;
+					float: right;
+					line-height: 0px;
+					cursor: pointer;
+				}
+				
+				#footer .right_column a:hover.powered_by{
+					text-decoration: none;
+				}
+				
+				.padding{
+					height: 300px;
+					clear: both;
+				}
