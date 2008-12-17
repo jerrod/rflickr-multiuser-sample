@@ -20,7 +20,7 @@ The changed files are
 
     flickr/auth.rb 
     flickr/token.rb
-    flickr/token\_cache.rb
+    flickr/token_cache.rb
   
 If anyone finds this useful then perhaps we can get this put into the rflickr gem, though i suspect there are better, cleaner REST implementations.  
 
